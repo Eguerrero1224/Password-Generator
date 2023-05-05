@@ -1,3 +1,4 @@
+// List of available characters
 special = ["!", "#", "$", "%", "&", "(", ")", "*", "+", ",", "-", ".", "/", " < ", " > ", " ? ", "@", "[", "]", " ^ ", "_", "{", "}", "~"];
 letters = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
 upperletters = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
@@ -17,10 +18,10 @@ function generatePassword() {
        
 
     } else {
-        confirmnumber = confirm("Would you like your password to contain numbers?");
-        confirmspecial = confirm("Would you like your password to contain special characters?");
-        confirmlowercase = confirm("Would you like your password to contain Lowercase letters?");
-        confirmuppercase = confirm("Would you like your password to contain Uppercase letters?");
+        confirmnumber = confirm("Do you want your password to contain numbers?");
+        confirmspecial = confirm("Do you want your password to contain special characters?");
+        confirmlowercase = confirm("Do you want your password to contain Lowercase letters?");
+        confirmuppercase = confirm("Do you want your password to contain Uppercase letters?");
     };
 
    
