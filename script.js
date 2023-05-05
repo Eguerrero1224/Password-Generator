@@ -17,7 +17,9 @@ function generatePassword() {
   
        
 
-    } else {
+    } 
+    
+    else {
         confirmnumber = confirm("Do you want your password to contain numbers?");
         confirmspecial = confirm("Do you want your password to contain special characters?");
         confirmlowercase = confirm("Do you want your password to contain Lowercase letters?");
